@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 60px auto !important;
+  margin-top:100px!important;
   max-width: 100%;
 }
 
@@ -97,4 +97,16 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+@media (max-width: 576px){
+  h1{
+    font-size: 48px!important;
+    line-height: 1.5!important;
+  }
+  h2{
+    font-size:32px!important ;
+  }
+  .text-center{
+    text-align: center!important;
+  }
 }

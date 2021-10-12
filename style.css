@@ -17,7 +17,7 @@ h3 {
 }
 
 h1 {
-  font-size: 85px !important;
+  font-size: 96px !important;
 }
 
 h2 {
@@ -30,7 +30,7 @@ h3 {
 }
 
 p {
-  padding: 20px;
+  padding: 18px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
@@ -107,6 +107,11 @@ p {
     font-size:32px!important ;
   }
   .text-center{
+    text-align: center!important;
+  }
+  .project-link{
+    display: block!important;;
+    margin: 0 20px!important;
     text-align: center!important;
   }
 }
